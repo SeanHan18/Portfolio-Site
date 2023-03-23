@@ -6,7 +6,7 @@ const Navbar = () => {
         <header>
             <nav className='nav-bar'>
                 <ul className='navlist'> 
-                <Link to='/home'>Home</Link>
+                <Link id to='/home'>Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/projects'>Projects</Link>
                 <Link to='/contact'>Contact</Link>

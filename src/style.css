@@ -1,0 +1,46 @@
+*{
+    color:rgb(5, 156, 73);
+    background-color:black;
+
+}
+/* #nav-bar{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1000px;
+} */
+
+#MainTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36pt;
+    color: white;
+    text-align: center;
+}
+#Project{
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-top: 12px;
+    margin-right: 12px;
+    margin-left: 12px;
+    box-shadow: 0 2px 5px -2px rgb(5, 156, 73);
+}
+
+#ProjectTitle{
+    background-color: rgb(5, 156, 73);
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#AboutText{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 3rem
+}
+#AboutHeader{
+    font-size: 36pt;
+    color: white;
+    padding: 3rem
+}
