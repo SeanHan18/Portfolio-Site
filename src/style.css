@@ -1,6 +1,6 @@
 *{
-    color:rgb(5, 156, 73);
-    background-color:black;
+    /* color:rgb(5, 156, 73); */
+    background-color:white;
 
 }
 /* #nav-bar{
@@ -11,7 +11,7 @@
 #MainTitle{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 36pt;
-    color: white;
+    color: black;
     text-align: center;
 }
 #Project{
@@ -23,11 +23,11 @@
     margin-top: 12px;
     margin-right: 12px;
     margin-left: 12px;
-    box-shadow: 0 2px 5px -2px rgb(5, 156, 73);
+    box-shadow: 0 2px 5px -2px black;
 }
 
 #ProjectTitle{
-    background-color: rgb(5, 156, 73);
+    background-color: black;
     display: flex;
     color:white;
     justify-content: space-between;
@@ -35,12 +35,41 @@
     padding: 1rem;
 }
 
+#ProjectText{
+    color: black
+}
+
+#navlist{
+    background-color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 1rem;
+    border: 0;
+    margin: 0px;
+}
+
+.navlink{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.selectednav{
+    background-color: rgb(5, 156, 73);
+    color: black;
+}
+
 #AboutText{
     font-family: 'Roboto Condensed', sans-serif;
+    color:black;
     padding: 3rem
 }
 #AboutHeader{
     font-size: 36pt;
-    color: white;
+    color: black;
     padding: 3rem
 }
+
