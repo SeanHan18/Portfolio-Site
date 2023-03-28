@@ -58,8 +58,9 @@
 }
 
 .selectednav{
-    background-color: rgb(5, 156, 73);
-    color: black;
+    background-color: black;
+    color:red;
+    text-decoration: none;
 }
 
 #AboutText{
