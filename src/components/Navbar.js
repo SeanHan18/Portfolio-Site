@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons';
 
 
 const Navbar = () => {
@@ -15,10 +16,11 @@ const Navbar = () => {
         <header>
             <nav className='nav-bar'>
                 <ul id='navlist' > 
-                <Link to='/home'  className={homeHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleHomeHover} onMouseLeave={toggleHomeHover}>Home</Link>
-                <Link to='/about' className={aboutHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleAboutHover} onMouseLeave={toggleAboutHover}>About</Link>
-                <Link to='/projects' className={projectsHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleProjectsHover} onMouseLeave={toggleProjectsHover}>Projects</Link>
-                <Link to='/contact' className={contactHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleContactHover} onMouseLeave={toggleContactHover}>Contact</Link>
+                <h3 className='navbarTitle'>Sean Hannan</h3>
+                <Link to='/home'  className={homeHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleHomeHover} onMouseLeave={toggleHomeHover}>HOME</Link>
+                <Link to='/about' className={aboutHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleAboutHover} onMouseLeave={toggleAboutHover}>ABOUT</Link>
+                <Link to='/projects' className={projectsHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleProjectsHover} onMouseLeave={toggleProjectsHover}>PROJECTS</Link>
+                <Link to='/contact' className={contactHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleContactHover} onMouseLeave={toggleContactHover}>CONTACT</Link>
                 </ul>
             </nav>
         </header>

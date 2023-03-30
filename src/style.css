@@ -1,17 +1,13 @@
 *{
     /* color:rgb(5, 156, 73); */
-    background-color:white;
+    background-color: #1b1a1a;
 
 }
-/* #nav-bar{
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 1000px;
-} */
 
 #MainTitle{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 36pt;
-    color: black;
+    color: white;
     text-align: center;
 }
 #Project{
@@ -29,23 +25,28 @@
 #ProjectTitle{
     background-color: black;
     display: flex;
-    color:white;
+    color:rgb(8, 236, 111);
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
 }
 
 #ProjectText{
-    color: black
+    color: white
 }
+
+/* .nav-bar{
+display: flex;
+} */
 
 #navlist{
     background-color: black;
     font-family: 'Roboto Condensed', sans-serif;
     color:white;
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
+    flex-direction: row;
+
+    justify-content: space-around;
     padding: 1rem;
     border: 0;
     margin: 0px;
@@ -59,18 +60,29 @@
 
 .selectednav{
     background-color: black;
-    color:red;
+    color:rgb(8, 236, 111);
     text-decoration: none;
 }
 
 #AboutText{
     font-family: 'Roboto Condensed', sans-serif;
-    color:black;
-    padding: 3rem
+    color:white;
+    padding: 3rem;
+    font-size: 14pt;
 }
 #AboutHeader{
     font-size: 36pt;
-    color: black;
-    padding: 3rem
+    color: rgb(8, 236, 111);
+    padding: 2rem
+}
+
+.navbarTitle{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 100pt;
+    margin-left: 0pt;
+    
 }
 
