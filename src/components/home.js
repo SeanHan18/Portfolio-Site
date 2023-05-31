@@ -4,8 +4,9 @@ import { SocialIcon } from 'react-social-icons';
 
 const Home = () => {
     return (
-        <div id='FlexContainer' >
+        <div id='FlexContainerHome' >
         <h1 id='MainTitle' >Sean Hannan's Portfolio Site</h1>
+            <div id='FlexContainerIcons'>
             <SocialIcon 
                 className='SocialIcon'
                 url="https://github.com/SeanHan18" 
@@ -28,6 +29,7 @@ const Home = () => {
                 fgColor="#ffffff"
             >
             </SocialIcon>
+            </div>
         </div>
     )
     }

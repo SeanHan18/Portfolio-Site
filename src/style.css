@@ -13,21 +13,21 @@
 #Project{
     flex-direction: column;
     font-family: 'Roboto Condensed', sans-serif;
-    flex-basis: 0%;
+    /* flex-basis: 0%;
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 0; */
     margin-top: 12px;
-    margin-right: 12px;
-    margin-left: 12px;
+    /* margin-right: 12px;
+    margin-left: 12px; */
     box-shadow: 0 2px 5px -2px black;
 }
 
 #ProjectTitle{
     background-color: black;
-    display: flex;
+    /* display: flex; */
     color:rgb(8, 236, 111);
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between;
+    align-items: center; */
     padding: 1rem;
 }
 
@@ -73,7 +73,29 @@ display: flex;
 #AboutHeader{
     font-size: 36pt;
     color: rgb(8, 236, 111);
-    padding: 2rem
+    padding: 2rem;
+}
+
+#FlexContainerAbout{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#FlexContainerHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+    
+}
+#FlexContainerIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row
+    
 }
 
 .navbarTitle{

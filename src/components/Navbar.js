@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
+import Logo from '../images/Logo.jpg'
+
 
 
 const Navbar = () => {
@@ -16,7 +18,7 @@ const Navbar = () => {
         <header>
             <nav className='nav-bar'>
                 <ul id='navlist' > 
-                <h3 className='navbarTitle'>Sean Hannan</h3>
+                <img style={{ width:200, height:200}} src={Logo} alt="Sean Hannan" />
                 <Link to='/home'  className={homeHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleHomeHover} onMouseLeave={toggleHomeHover}>HOME</Link>
                 <Link to='/about' className={aboutHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleAboutHover} onMouseLeave={toggleAboutHover}>ABOUT</Link>
                 <Link to='/projects' className={projectsHovered ? 'selectednav' : 'navlink'} onMouseEnter={toggleProjectsHover} onMouseLeave={toggleProjectsHover}>PROJECTS</Link>
