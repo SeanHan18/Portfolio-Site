@@ -14,7 +14,7 @@ const Home = () => {
                 target='_blank'
                 rel="noopener"
                 aria-label='Github'
-                bgColor="#059C49"
+                bgColor="#69b751"
                 fgColor="#ffffff"
             >
             </SocialIcon>
@@ -25,7 +25,7 @@ const Home = () => {
                 target='_blank'
                 rel="noopener"
                 aria-label='LinkedIn'
-                bgColor="#059C49"
+                bgColor="#69b751"
                 fgColor="#ffffff"
             >
             </SocialIcon>
