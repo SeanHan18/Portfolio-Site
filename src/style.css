@@ -82,6 +82,8 @@ display: flex;
 }
 #AboutHeader{
     font-size: 36pt;
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
     color: rgb(105, 183, 81);
     padding: 2rem;
 }
